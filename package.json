@@ -1,0 +1,60 @@
+{
+  "name": "progressive-blur-style",
+  "version": "1.0.0",
+  "description": "Advanced layered blur effects for web elements. Create iOS/Windows-style blur overlays with multiple customizable layers: blur, luminosity, tint, and noise.",
+  "main": "progressive-blur-style.js",
+  "types": "progressive-blur-style.d.ts",
+  "files": [
+    "progressive-blur-style.js",
+    "progressive-blur-style.d.ts",
+    "blur-style-editor.html",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "demo": "open blur-style-editor.html",
+    "editor": "open blur-style-editor.html"
+  },
+  "keywords": [
+    "blur",
+    "progressive",
+    "layered",
+    "backdrop-filter",
+    "css",
+    "mask",
+    "gradient",
+    "web",
+    "effect",
+    "ios",
+    "windows",
+    "glass",
+    "morphism",
+    "luminosity",
+    "tint",
+    "noise",
+    "texture",
+    "cubic-bezier",
+    "ui",
+    "frontend",
+    "visual",
+    "overlay",
+    "glassmorphism",
+    "material-design",
+    "react",
+    "vue",
+    "angular",
+    "svelte",
+    "typescript"
+  ],
+  "author": "Yusuf Emre Albayrak",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "browserslist": [
+    "Chrome >= 76",
+    "Firefox >= 103",
+    "Safari >= 14",
+    "Edge >= 79"
+  ]
+} 
