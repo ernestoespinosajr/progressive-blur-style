@@ -439,7 +439,14 @@ const blurStylePresets = {
   }
 };
 
-// Export functions
+// CommonJS exports
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { progressiveBlurStyle, blurStylePresets };
-} 
+  module.exports = progressiveBlurStyle;
+  module.exports.progressiveBlurStyle = progressiveBlurStyle;
+  module.exports.blurStylePresets = blurStylePresets;
+  module.exports.default = progressiveBlurStyle;
+}
+
+// ESM exports (for bundlers that support it)
+export { progressiveBlurStyle, blurStylePresets };
+export default progressiveBlurStyle; 
